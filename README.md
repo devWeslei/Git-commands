@@ -1,5 +1,7 @@
-`Comando`: funcionalidade. 
+`Comando`: funcionalidade.   
 
+ <h2> pegue um atalho 👇🏻</h2>   
+ 
 - [Comandos principais do Git](#comandos-principais-do-git)
 - [trabalhando com branches](#-trabalhando-com-branches-)
 - [comandos não tão usuais, mas é bom saber](#-comandos-n%C3%A3o-t%C3%A3o-usuais-mas-%C3%A9-bom-saber)    
@@ -109,10 +111,10 @@ Ex: `git reset --hard origin/master` – reseta o projeto para o ultimo estado d
 
 <h2 align="center"> Comandos não tão usuais, mas é bom saber</h2>   
            
-`git show`: mostrar informações do branch atual, as modificações dos arquivos e também seus commits.
-`git show <tag>`: exibir as informações de tags.
-`git diff`: exibir as diferenças do branch atual com o remoto.
->Ex: `git diff main` - exibe no terminal as diferenças do seu arquivo para a main.
+`git show`: mostrar informações do branch atual, as modificações dos arquivos e também seus commits.   
+`git show <tag>`: exibir as informações de tags.   
+`git diff`: exibir as diferenças do branch atual com o remoto.   
+>Ex: `git diff main` - exibe no terminal as diferenças do seu arquivo para a main.   
 Obs: também podemos verificar a diferença entre arquivos dando `git diff <arquivo> <arquivo_b>`
 
 `git shortlog`: exibirá um log resumido do projeto, quais commits foram enviados ao projeto e por quem.
